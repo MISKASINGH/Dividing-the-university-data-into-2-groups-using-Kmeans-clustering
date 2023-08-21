@@ -1,11 +1,11 @@
 # Dividing-the-university-data-into-2-groups-using-Kmeans-clustering
-In this project , we have data of universities ,which we'll divide into 2 groups , private and public using Kmeans clustering.
-It is very important to note, we actually have the labels for this data set, but we will NOT use them for the KMeans clustering algorithm, since that is an unsupervised learning algorithm.
+In this project , we had data of universities ,which was divided into 2 groups , private and public using Kmeans clustering.
+It is very important to note, we actually had the labels for this data set, but we didn't use them for the KMeans clustering algorithm, since that is an unsupervised learning algorithm.
 
-When using the Kmeans algorithm under normal circumstances, we don't have labels. In this case we will use the labels to try to get an idea of how well the algorithm performed, but you won't usually do this for Kmeans, so the classification report and confusion matrix at the end of this project, don't truly make sense in a real world setting!.
+When using the Kmeans algorithm under normal circumstances, we don't have labels. In this case we used the labels to try to get an idea of how well the algorithm performed, but you won't usually do this for Kmeans, so the classification report and confusion matrix at the end of this project, don't truly make sense in a real world setting!.
 
 # Dataset:
-I will use a data frame with 777 observations on the following 18 variables.
+I used a data frame with 777 observations on the following 18 variables.
 
 Private A factor with levels No and Yes indicating private or public university
 Apps Number of applications received
